@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 800px;
+    background: #251f44;
+}
+
+h2{
+    text-align: center;
+    color: #d3dbff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2 span{
+    color:  #f40987;
+}
+
+hr{
+    height: 8px;
+    width: 400px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: linear-gradient(25deg,#d3dbff, #f40987);
+    margin-bottom: 20px;
+}
+
+b{
+    color:  #f40987;
+    margin: 20px;
+}
+
+b span{
+    color: #d3dbff;
+}
+
+.container{
+    background: #d3dbff;
+    margin: 30px 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.container h3 span{
+    color: #f40987;
+}
+
+.container h4{
+    margin-right: 80px;
+}
+
+.container h4 span{
+    margin-right: 10px;
+    color: #f40987;
+}
+
+container span{
+    font-weight: bold;
+    color: #f40987;
+}
+
+.container input{
+    border: none;
+    padding: 8px 20px;
+    background: transparent;
+    margin-left: 20px;
+    border-right: 5px;
+    border: 2px solid #251f44;
+    outline: none;
+}
+
+.container .check{
+    background: #f40987;
+    color: #d3dbff;
+    padding: 8px 20px;
+    border: none;
+    border: 2px solid #f40987;
+    border-radius: 5px;
+    outline: none;
+    text-transform: capitalize;
+    transition: .7s linear;
+}
+
+.container .check:hover{
+    background: none;
+    color: #f40987;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: White;
+    font-size: 35px;
+
+}

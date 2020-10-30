@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Quiz</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            function quiz1(){
+                var word=document.getElementById('ans1').value;
+                if(word==='c'||word==='C'||word==='Hyper Text Markup Language')
+                     alert("Correct Answer");
+                else if(word===''){
+                    alert("Required");
+                }   
+
+                else
+                    alert("Wrong Answer");
+            }
+
+            function quiz2(){
+                var word=document.getElementById('ans2').value;
+                if(word==='c'||word==='C'||word==='The World Wide Web Consortium')
+                     alert("Correct Answer");
+                else if(word===''){
+                    alert("Required");
+                }   
+
+                else
+                    alert("Wrong Answer");
+            }
+
+            function quiz3(){
+                var word=document.getElementById('ans3').value;
+                if(word==='c'||word==='C'||word==='/')
+                     alert("Correct Answer");
+                else if(word===''){
+                    alert("Required");
+                }   
+
+                else
+                    alert("Wrong Answer");
+            }
+
+            function quiz4(){
+                var word=document.getElementById('ans4').value;
+                if(word==='a'||word==='A'||word==='Cascading Style Sheets')
+                     alert("Correct Answer");
+                else if(word===''){
+                    alert("Required");
+                }   
+
+                else
+                    alert("Wrong Answer");
+            }
+
+            function quiz5(){
+                var word=document.getElementById('ans5').value;
+                if(word==='b'||word==='B'||word==='The head section')
+                     alert("Correct Answer");
+                else if(word===''){
+                    alert("Required");
+                }   
+
+                else
+                    alert("Wrong Answer");
+            }
+</script>
+    </head>
+    <body>
+        <h2>Welcome to <span>Online Quiz</span></h2>
+        <hr>
+        <b>Note:
+            <span>You can enter the options like a/b/c/d or directly fill the Answer.</span>
+        </b>
+            <br> <br>
+        <div class="container">
+            <h3>
+                <span>Question 1 of 5</span>
+                <br><br>
+                What does HTML stand for?
+            </h3>
+            <h4><span>A </span>Home Tool Markup Language</h4>
+            <h4><span>B </span>Hyperlinks and Text Markup Language</h4>
+            <h4><span>C </span>Hyper Text Markup Language</h4>
+            <span>Answer</span>
+            <input type="text" id="ans1">
+            <input type="button" value="check" class="check" onclick="quiz1();">
+                <br> <br> <br>
+            <h3>
+                <span>Question 2 of 5</span>
+                <br><br>
+                Who is making the Web standards?
+            </h3>
+            <h4><span>A </span>Mozilla</h4>
+            <h4><span>B </span>Microsoft</h4>
+            <h4><span>C </span>The World Wide Web Consortium</h4>
+            <h4><span>D </span>Google</h4>
+            <span>Answer</span>
+            <input type="text" id="ans2">
+            <input type="button" value="check" class="check" onclick="quiz2();">
+
+            <h3>
+                <span>Question 3 of 5</span>
+                <br><br>
+                Which character is used to indicate an end tag?
+            </h3>
+            <h4><span>A </span>^</h4>
+            <h4><span>B </span><</h4>
+            <h4><span>C </span>/</h4>
+            <span>Answer</span>
+            <input type="text" id="ans3">
+            <input type="button" value="check" class="check" onclick="quiz3();">
+
+            <h3>
+                <span>Question 4 of 5</span>
+                <br><br>
+                What does CSS stand for?
+            </h3>
+            <h4><span>A </span>Cascading Style Sheets</h4>
+            <h4><span>B </span>Computer Style Sheets</h4>
+            <h4><span>C </span>Colorful Style Sheets</h4>
+            <span>Answer</span>
+            <input type="text" id="ans4">
+            <input type="button" value="check" class="check" onclick="quiz4();">
+
+            <h3>
+                <span>Question 5 of 5</span>
+                <br><br>
+                Where is the correct place to insert a JavaScript?
+            </h3>
+            <h4><span>A </span>Both <head> section and <body> section</h4>
+            <h4><span>B </span>The head section</h4>
+            <h4><span>C </span>The body section</h4>
+            <span>Answer</span>
+            <input type="text" id="ans5">
+            <input type="button" value="check" class="check" onclick="quiz5();">
+        </div>
+        <footer>This is Footer</footer>
+    </body>
+</html>
